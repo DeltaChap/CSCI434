@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #828c89;
+	background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+	
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	aligne-items: center;
+	height: 100vh;	
+	padding: 20px;
+}
+
+.centered-section {
+	padding: 70px 0;
+	text-align: center;
+	max-width: 600px;
+	width: 100%;
+}
+
+img {
+	width: 350px;
+	height: auto;
+}
