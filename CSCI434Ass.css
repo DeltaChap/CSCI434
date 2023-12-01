@@ -26,7 +26,7 @@ img {
 	height: auto;
 }
 
-.sidenav {
+.sideNav {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -39,7 +39,7 @@ img {
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
-.sidenav a {
+.sideNav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -48,11 +48,11 @@ img {
   transition: 0.3s;
 }
 
-.sidenav a:hover {
+.sideNav a:hover {
   color: #f1f1f1;
 }
 
-.sidenav .closebtn {
+.sideNav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
@@ -61,6 +61,6 @@ img {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sideNav {padding-top: 15px;}
+  .sideNav a {font-size: 18px;}
 }
