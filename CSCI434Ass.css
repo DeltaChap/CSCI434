@@ -52,6 +52,23 @@ img {
   color: #f1f1f1;
 }
 
+.sideNav a:nth-child(1):hover {
+	color: #0000FF;
+}
+
+.sideNav a:nth-child(2):hover {
+	color: #800080;
+}
+
+.sideNav a:nth-child(3):hover {
+	color: #A52A2A;
+}
+
+.sideNav a:nth-child(4):hover {
+	color: #000000;
+}
+
+
 .sideNav .closebtn {
   position: absolute;
   top: 0;
