@@ -33,7 +33,8 @@ img {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black*/
+  background-image: url('black-hex.jpg');
+  background-size: cover;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -43,7 +44,7 @@ img {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #C0C0C0;
   display: block;
   transition: 0.3s;
 }
@@ -53,21 +54,33 @@ img {
 }
 
 .sideNav a:nth-child(1):hover {
-	color: #0000FF;
+	color: #f1f1f1;
 }
 
 .sideNav a:nth-child(2):hover {
-	color: #800080;
+	color: #f1f1f1;
 }
 
 .sideNav a:nth-child(3):hover {
-	color: #A52A2A;
+	color: #0000FF;
 }
 
 .sideNav a:nth-child(4):hover {
+	color: #800080;
+}
+
+.sideNav a:nth-child(5):hover {
+	color: #8B4513;
+}
+
+#mySideNav a:nth-child(6):hover {
 	color: #000000;
 }
 
+/*.sideNav a:nth-child(6):hover::after{
+	content: "ity";
+	color: #8b0000;
+} */
 
 .sideNav .closebtn {
   position: absolute;
@@ -80,4 +93,10 @@ img {
 @media screen and (max-height: 450px) {
   .sideNav {padding-top: 15px;}
   .sideNav a {font-size: 18px;}
+}
+
+#menuButton {
+	font-size:30px;
+	cursor: pointer;
+	margin-top: 15px;
 }
