@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="community.css" rel="stylesheet" href="styles.css">
+  <title>Simple Chat</title>
+</head>
+<body>
+	<div class="home-button">
+  		<a href="index.html">Home</a>
+  	</div>
+	<div id="title-container">
+		<br>
+			<h1>
+				<span>Your</span>
+				<span>Brazilian</span>
+				<span>Jiu-Jitsu</span>
+  				<span>Community</span>	
+			</h1>
+		</div>
+	<br><br><br>
+	<br><br><br>
+  <div class="chat-container">
+    <div id="chat-messages"></div>
+    <div class="input-container">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="text" id="message" placeholder="Type your message...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+  <script src="community.js"></script>
+</body>
+</html>

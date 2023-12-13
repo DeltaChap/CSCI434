@@ -21,6 +21,18 @@ body {
   align-items: center;
 }
 
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F1F1F1F1; 
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+    top: 10px;
+    right: 10px;
+}   
+
 h1 {
   font-family: "Montserrat Medium";
   max-width: 40ch;
@@ -69,5 +81,3 @@ span:nth-child(5) {
 	margin-bottom: 15px; 
 }
 
-
-}
