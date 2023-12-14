@@ -6,12 +6,17 @@ body {
 	
 }
 
+h2 {
+	font-family: cursive; font-size: 36px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: cursive; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: cursive; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: cursive; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: cursive; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;
+}
+
 .container {
 	display: flex;
 	justify-content: center;
 	aligne-items: center;
 	height: 100vh;	
 	padding: 20px;
+	font-size: 22;
 }
 
 .centered-section {
@@ -77,10 +82,6 @@ img {
 	color: #000000;
 }
 
-/*.sideNav a:nth-child(6):hover::after{
-	content: "ity";
-	color: #8b0000;
-} */
 
 .sideNav .closebtn {
   position: absolute;
