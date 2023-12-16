@@ -35,6 +35,11 @@ h1{
 	margin-bottom: 20 px;
 }
 
+.form2 {
+	position: relative;
+	margin-bottom: 15px;
+}
+
 span {
   display: inline-block;
   opacity: 0;
